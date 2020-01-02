@@ -1,0 +1,120 @@
+# depslib dependency file v1.0
+1545848159 source:/home/chrak/Daten/Software/repositories/communication/CmultiBusy.cpp
+	<avr/io.h>
+	<avr/interrupt.h>
+	<uartHardware.h>
+
+1577774921 /home/chrak/Daten/Software/repositories/IO-Board/uartHardware.h
+
+1577981796 source:/home/chrak/Daten/Software/repositories/communication/Communication.cpp
+	"Communication.h"
+	"CRC_Calc.h"
+
+1545848159 /home/chrak/Daten/Software/repositories/communication/Communication.h
+	<avr/io.h>
+	<stdbool.h>
+	<errno.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdio.h>
+	<string.h>
+	"Serial.h"
+
+1573416226 /home/chrak/Daten/Software/repositories/communication/Serial.h
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	<uartHardware.h>
+	<avr/io.h>
+	<util/delay.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+
+1545848159 /home/chrak/Daten/Software/repositories/communication/CRC_Calc.h
+	<avr/io.h>
+	<stdio.h>
+
+1545848159 source:/home/chrak/Daten/Software/repositories/communication/CRC_Calc.cpp
+	"CRC_Calc.h"
+
+1573416212 source:/home/chrak/Daten/Software/repositories/communication/Serial.cpp
+	"Serial.h"
+
+1545848162 source:/home/chrak/Daten/Software/repositories/IO-Board/Operators.cpp
+	"Operators.h"
+
+1573383666 /home/chrak/Daten/Software/repositories/IO-Board/Operators.h
+	<stdlib.h>
+	<stddef.h>
+
+1577980632 source:/home/chrak/Daten/Software/repositories/IO-Board/Globals.cpp
+	"IO-Board.h"
+
+1577989901 /home/chrak/Daten/Software/repositories/IO-Board/IO-Board.h
+	<avr/io.h>
+	<stdbool.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+	<avr/eeprom.h>
+	<errno.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdio.h>
+	<string.h>
+	"myConstants.h"
+	"Serial.h"
+	"External.h"
+	"MyTimer.h"
+	"Communication.h"
+	"../xmegaClocks/xmegaClocks.h"
+	"ComReceiver.h"
+
+1577979858 /home/chrak/Daten/Software/repositories/IO-Board/myConstants.h
+
+1577980578 /home/chrak/Daten/Software/repositories/IO-Board/External.h
+	"Serial.h"
+	"MyTimer.h"
+	"myConstants.h"
+	"Communication.h"
+	"../communication/CRC_Calc.h"
+
+1573383412 /home/chrak/Daten/Software/repositories/IO-Board/MyTimer.h
+
+1577692143 source:/home/chrak/Daten/Software/repositories/IO-Board/MyTimer.cpp
+	"IO-Board.h"
+
+1577985496 source:/home/chrak/Daten/Software/repositories/IO-Board/IO-Board.cpp
+	"IO-Board.h"
+
+1577778389 /home/chrak/Daten/Software/repositories/xmegaClocks/xmegaClocks.h
+
+1577778428 source:/home/chrak/Daten/Software/repositories/xmegaClocks/xmegaClocks.cpp
+	<avr/io.h>
+	<stdbool.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+	<avr/eeprom.h>
+	<errno.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdio.h>
+	<string.h>
+	"xmegaClocks.h"
+
+1577985725 source:/home/chrak/Daten/Software/repositories/IO-Board/CommandFunctions.cpp
+	"External.h"
+	"CommandFunctions.h"
+	"ComReceiver.h"
+	"CRC_Calc.h"
+
+1577797080 /home/chrak/Daten/Software/repositories/IO-Board/CommandFunctions.h
+	"IO-Board.h"
+
+1577795472 /home/chrak/Daten/Software/repositories/IO-Board/ComReceiver.h
+	"Communication.h"
+
+1577985813 source:/home/chrak/Daten/Software/repositories/IO-Board/ComReceiver.cpp
+	"ComReceiver.h"
+	"CommandFunctions.h"
+	<ctype.h>
+

@@ -1,0 +1,102 @@
+obj/Release/IO-Board/IO-Board.o: IO-Board.cpp IO-Board.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/io.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/sfr_defs.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/inttypes.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stdint.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/stdint.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/iox32a4u.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/portpins.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/common.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/version.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/xmega.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/fuse.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/lock.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stdbool.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/pgmspace.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stddef.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/interrupt.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/eeprom.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/errno.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/stdlib.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/stdio.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stdarg.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/string.h \
+ myConstants.h ../communication/Serial.h ../IO-Board/uartHardware.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/util/delay.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/util/delay_basic.h \
+ /home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/math.h \
+ External.h MyTimer.h ../communication/Communication.h \
+ ../communication/Serial.h ../communication/CRC_Calc.h \
+ ../xmegaClocks/xmegaClocks.h ComReceiver.h
+
+IO-Board.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/io.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/sfr_defs.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/inttypes.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stdint.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/stdint.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/iox32a4u.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/portpins.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/common.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/version.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/xmega.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/fuse.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/lock.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stdbool.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/pgmspace.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stddef.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/interrupt.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/eeprom.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/errno.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/stdlib.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/stdio.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stdarg.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/string.h:
+
+myConstants.h:
+
+../communication/Serial.h:
+
+../IO-Board/uartHardware.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/util/delay.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/util/delay_basic.h:
+
+/home/chrak/.local/share/avr8-gnu-toolchain-linux_x86_64/avr/include/math.h:
+
+External.h:
+
+MyTimer.h:
+
+../communication/Communication.h:
+
+../communication/Serial.h:
+
+../communication/CRC_Calc.h:
+
+../xmegaClocks/xmegaClocks.h:
+
+ComReceiver.h:

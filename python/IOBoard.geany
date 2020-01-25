@@ -28,12 +28,19 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=1
-FILE_NAME_0=1884;Python;0;EUTF-8;0;1;0;%2Fhome%2Fchrak%2FDaten%2FSoftware%2Frepositories%2FIO-Board%2Fpython%2FIO-Board.py;0;2
-FILE_NAME_1=3046;Python;0;EUTF-8;0;1;0;%2Fhome%2Fchrak%2FDaten%2FSoftware%2Frepositories%2FIO-Board%2Fpython%2Fcmulti.py;0;2
-FILE_NAME_2=386;Python;0;EUTF-8;0;1;0;%2Fhome%2Fchrak%2FDaten%2FSoftware%2Frepositories%2Fbridges%2FMqtt2cmultiBridge.py;0;2
+current_page=5
+FILE_NAME_0=228;Python;0;EUTF-8;0;1;0;%2Fhome%2Fchrak%2FDaten%2FSoftware%2FPython%2FtestFritz.py;0;2
+FILE_NAME_1=71;Python;0;EUTF-8;0;1;0;%2Fhome%2Fchrak%2FDaten%2FSoftware%2Frepositories%2Fbridges%2FpublishFritzBox.py;0;2
+FILE_NAME_2=281;YAML;0;EUTF-8;0;1;0;%2Fhome%2Fchrak%2FDaten%2FSoftware%2Frepositories%2Fbridges%2Fconfig.yaml;0;2
+FILE_NAME_3=284;Python;0;EUTF-8;0;1;0;%2Fhome%2Fchrak%2FDaten%2FSoftware%2Frepositories%2Fbridges%2FswitchWLANFritzbox.py;0;2
+FILE_NAME_4=0;None;0;EUTF-8;0;1;0;%2Fhome%2Fchrak%2FDaten%2FSoftware%2Frepositories%2FhomeAssistant%2FautoStartScripte%2Fcmulti-bridge.service;0;2
+FILE_NAME_5=195;Python;0;EUTF-8;0;1;0;%2Fhome%2Fchrak%2FDaten%2FSoftware%2Frepositories%2Fbridges%2FMqtt2cmultiBridge.py;0;2
 
 [build-menu]
 EX_00_LB=_Execute
 EX_00_CM=python3 "%f"
 EX_00_WD=
+PythonFT_00_LB=_Compile
+PythonFT_00_CM=python3 -m py_compile "%f"
+PythonFT_00_WD=
+filetypes=Python;

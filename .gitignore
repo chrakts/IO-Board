@@ -40,3 +40,5 @@ python/IOBoard.geany
 *.geany
 
 bin/Release/IO-Board.map
+
+*.elf
